@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'fontStandard';
+  src: url(../assets/fontRoboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'fontBold';
+  src: url(../assets/fontRoboto/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+    font-family: 'fontHelvaticaStandard';
+    src: url(../assets/fontHelvetica/HelveticaMedium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'fontHelvaticaBold';
+    src: url(../assets/fontHelvetica/HelveticaBold.ttf);
+    font-weight: bold;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-family: 'fontHelvaticaStandard';
+}
